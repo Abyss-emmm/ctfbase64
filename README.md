@@ -110,7 +110,6 @@ get_one_some_key("uCGd","G",en_form) # G = {0,9,17,21}
 ```
 剩下的I，s的，由于I确定为2，因此相当于仅s未知
 ```python
-#get_two_some_key("uIsA",['I','s'],en_form) # I = 2,s = 53
 en_form.add(2,'I')                       #ensure I =2  
 get_one_some_key("uIsA","s",en_form)      # s = 53
 ```
